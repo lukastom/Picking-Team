@@ -45,6 +45,7 @@ public class Main {
             offset = remainingFields-howManyRemoved-(howManyRemoved*(skipPlayers-1)-offset);
 
         }
+        //Print the last player
         System.out.print(playersPool.get(0));
 
     }
